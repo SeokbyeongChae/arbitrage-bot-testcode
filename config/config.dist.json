@@ -1,0 +1,27 @@
+{
+  "connection": {
+    "restEndpoint": "https://api.dovewallet.com/v1.1",
+    "apiKey": "",
+    "apiSecret": ""
+  },
+  "taker": {
+    "updateMarketPriceInterval": 100,
+    "orderInterval": 100,
+    "marginMilliseconds": 10000
+  },
+  "exchange": {
+    "fee": 0.001,
+    "walletId": 21,
+    "minimumRate": "0.000000001",
+    "maximumRate": "1000000000",
+    "minimumQuantity": "0.001",
+    "maximumQuantity": "100000000",
+    "minimumTotal": "0.001",
+    "maximumTotal": "100000000"
+  },
+  "order": {
+    "orderInterval": 3000,
+    "minimumMagic": 40000,
+    "maximumMagic": 65534
+  }
+}
