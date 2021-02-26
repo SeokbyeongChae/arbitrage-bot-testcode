@@ -1,6 +1,6 @@
 # arbitrage-bot
 
-### 1. Setting config
+### 1. Set config
 ```
 copy config.dist.json to config.json
 enter apiKey and secret
